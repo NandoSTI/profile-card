@@ -83,28 +83,4 @@ Pretendo continuar focado em construir um conhecimento sólido nessas limguagens
 
 ## Autor
 
-[Fernando Mendes](https://www.linkedin.com/in/fernandomendesti/)
-@media(max-width: 425px){
-
-    .container .wrapper .main img{
-        width: 100%;
-    }
-    .container .wrapper .main{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .container .wrapper .main .hero-text h1{
-        font-size: 26px;
-    }
-
-    .container .wrapper .social{
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .container .wrapper .main .hero-text a{
-        padding: 10px 70px;
-    }
-
-}
+[Fernando Mendes](https://www.linkedin.com/in/fernandomendesti/
