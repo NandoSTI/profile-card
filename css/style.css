@@ -12,10 +12,34 @@ body{
 }
 
 .container{
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-bg {
+    position: absolute;
+    background: url(../images/bg-pattern-top.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 987px;
+    height: 978px;
+    top: -524px;
+    left: -284px;
+}
+
+.botton-bg {
+    position: absolute;
+    background: url(../images/bg-pattern-bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 987px;
+    height: 978px;
+    bottom: -628px;
+    right: -284px;
 }
 
 .container .wrapper{
@@ -25,6 +49,7 @@ body{
     border-radius: 12px;
     overflow: hidden;
     margin: 1rem;
+    z-index: 1;
 }
 
 
@@ -65,4 +90,21 @@ body{
     font-size: 18px;
     color: hsl(229, 23%, 23%);
     font-weight: 700;
+}
+
+@media(max-width: 425px) {
+    .top-bg {
+        width: 387px;
+        height: 378px;
+        top: -160px;
+        left: -166px;
+    }
+    
+    .botton-bg {
+        width: 387px;
+        height: 378px;
+        bottom: -160px;
+        right: -166px;
+    }
+    
 }
